@@ -1,0 +1,30 @@
+.nav-col {
+  margin-left: 10px;
+  color: gray;
+}
+
+.active {
+  border-left: 1px solid white;
+}
+.header-section {
+  background: url("./Images/image1.jpg ") no-repeat top center;
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  color: #fff;
+  margin-bottom: 56px;
+  padding: 0 150px;
+}
+
+.header-section h1 {
+  font-size: 3rem;
+  /* width: 100%; */
+}
+.background-blog {
+  background-image: url(./Images/image2.jpg) no-repeat top center cover;
+  background-attachment: fixed;
+}
